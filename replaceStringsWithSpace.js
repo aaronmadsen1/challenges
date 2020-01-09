@@ -7,4 +7,5 @@ const songDecoder = song => {
   // let newSong = song.split('WUB').filter(Boolean).join(' ');
   return newSong
 }
+
 songDecoder("WUBWUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB")
