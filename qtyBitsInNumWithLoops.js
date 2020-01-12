@@ -1,17 +1,4 @@
-// Convert a non-negative integer to binary and counts number of bits.
-
-// A much cleaner method
-const countBits = n => {
-  numOfBits = n
-    .toString(2) // to binary
-    .split("0")
-    .join("").length // bit count
-  return numOfBits
-}
-
-countBits(156)
-
-// Manually with loops
+// Convert a non-negative integer to binary and counts number of bits manually with loops
 const countBits = inputNumber => {
   const divisorList = [inputNumber]
   const binaryList = []
