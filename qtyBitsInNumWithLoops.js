@@ -1,3 +1,5 @@
+// Converts a non-negative integer to binary and counts number of bits manually with loops
+
 const countBits = inputNumber => {
   const divisorList = [inputNumber]
   const binaryList = []
@@ -30,8 +32,7 @@ const countBits = inputNumber => {
   }
   const binaryNumber = binaryList.join("")
   console.log(binaryNumber)
-  console.log(numOfBits)
-  // return numOfBits
+  return numOfBits
 }
 
 countBits(156)
