@@ -1,3 +1,5 @@
+//  Song decoder
+
 const songDecoder = song => {
   let newSong = song
     .replace(/WUB/g, " ")
